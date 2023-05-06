@@ -5,7 +5,7 @@ pipeline {
             steps {
                 echo 'This is Build Stage.'
                 echo 'This is Jenkins for the Job'
-                sh '''echo "this is shell line by line script step"
+                sh '''echo "this is shell line by line  ty script step"
                 cd /var/lib/jenkins/workspace'''
             }
         }
